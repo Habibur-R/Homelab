@@ -2,7 +2,7 @@
 This is my attempt at documenting the process, by which I designed and built my home lab set-up. This includes software and hardware used, application and system implementation, networking, problems I came across, how I overcame them, hardware alternatives and future considerations for improvement.
 
 The build:
-<img width="2000" height="3000" alt="PXL_20260415_185007490~2" src="https://github.com/user-attachments/assets/64fd1d0c-a29e-41f6-8e3e-cd4318ff2417" />
+<img width="1000" height="2000" alt="PXL_20260415_185007490~2" src="https://github.com/user-attachments/assets/64fd1d0c-a29e-41f6-8e3e-cd4318ff2417" />
 
 Hardware Specifications:
 - Lenovo Thinkcentre M920q i7-8th gen, 6 cores, 64gb DDR4 2666Mhz RAM, 1TB internal storage
