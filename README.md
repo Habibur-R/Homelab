@@ -5,7 +5,7 @@ This is my attempt at documenting the process, by which I designed and built my 
 
 <img width="670" height="1001" alt="Adobe Express - file" src="https://github.com/user-attachments/assets/b1a0fc7f-9f96-496e-bb18-6a0254a6c928" />
 
-Hardware Specifications:
+### Hardware Specifications:
 - Lenovo Thinkcentre M920q i7-8th gen, 6 cores, 64gb DDR4 2666Mhz RAM, 1TB internal storage
 - Netgear managed 8-port gigabit ethernet plus switch (GS308E)
 - Glovary firewall mini PC N150, 4 cores, DDR5 8gb RAM, 128gb nvme SSD, 6 x 2.5GbE i226V
@@ -15,12 +15,12 @@ Hardware Specifications:
 - Patch panel
 - Rackmate T1
 
-Software:
+### Software Specifications:
 - OPNsense router/firewall
 - Proxmox
 - UOS Server 
 
-Technologies implemented:
+### Technologies implemented:
 - Router/firewall
 - Virtualisation host
 - Network switch
