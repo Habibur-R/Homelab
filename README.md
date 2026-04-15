@@ -22,7 +22,7 @@ This is my attempt at documenting the process, by which I designed and built my 
 
 ### Technologies Implemented:
 - Router/firewall
-- Virtualisation host
+- Virtualisation server 
 - Network switch
 - Access Point
 
