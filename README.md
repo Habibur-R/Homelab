@@ -1,7 +1,7 @@
 ## Overview
 This is my attempt at documenting the process, by which I designed and built my home lab set-up. This includes software and hardware used, application and system implementation, networking, problems I came across, how I overcame them, hardware alternatives and future considerations for improvement.
 
-The build:
+## The build:
 
 <img width="670" height="1001" alt="Adobe Express - file" src="https://github.com/user-attachments/assets/b1a0fc7f-9f96-496e-bb18-6a0254a6c928" />
 
