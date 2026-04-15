@@ -1,5 +1,5 @@
 ## Overview
-This is my attempt at documenting the process, by which I designed and built my home lab set-up. This includes software and hardware used, application and system implementation, networking, problems I came across, how I overcame them, hardware alternatives and future considerations for improvement.
+This is my attempt at documenting the process, by which I designed and built my home lab set-up. This includes software and hardware used, application and system implementation, networking, problems I came across, how I overcame them, and future improvements.
 
 ## The Build:
 
