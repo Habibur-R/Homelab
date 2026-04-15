@@ -20,7 +20,7 @@ This is my attempt at documenting the process, by which I designed and built my 
 - Proxmox
 - UOS Server 
 
-### Technologies implemented:
+### Technologies Implemented:
 - Router/firewall
 - Virtualisation host
 - Network switch
