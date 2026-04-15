@@ -35,7 +35,7 @@ I decided to go with a dedicated mini PC running OPNsense, specifically the Glov
 
 Another requirement I had was that the firewall and routing platform used was open-source and free. OPNsense ticks all of these boxes, as well as providing enterprise grade security.
 
-After logging in to the GUI and giving myself specific user privileges, I assigned VLANs to specific interfaces and IPv4 addresses to each device,enabled DHCP addressing, created firewall rules to allow DNS and ICMP, while allowing access to everything but internal/private networks for internet access.
+After logging in to the GUI and giving myself specific user privileges, I assigned VLANs to specific interfaces and IPv4 addresses to each device, enabled DHCP addressing, created firewall rules to allow DNS and ICMP, while allowing access to everything but internal/private networks for internet access.
 
 I also deployed an unbound DNS resolver to improve privacy and prevent reliance on the ISP's DNS servers, allowing for direct access to DNS records from root servers, effectively cutting out the middle man i.e. third party DNS providers, from accessing internet logs.
 ### The Switch
