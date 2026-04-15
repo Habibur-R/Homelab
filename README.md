@@ -27,7 +27,7 @@ This is my attempt at documenting the process, by which I designed and built my 
 - Access Point
 
 ## Network Specifications
-The overall topology of the network is a simple router on a stick topology comprising of a router acting as the core/distribution layer and a layer 2 switch as the access layer, connected to end devices.
+The overall topology of the network is a simple router on a stick topology comprising of a router acting as the core/distribution layer and a layer 2 managed switch as the access layer, connected to end devices.
 ### The Router
 The first on the list of configurations is the router.
 
