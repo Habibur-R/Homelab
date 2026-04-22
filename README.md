@@ -43,7 +43,7 @@ The switch is a Netgear GS308E 8 port gigabit ethernet switch and is comprised o
 
 The assigned VLANs are as follows:
 - Virtualisation server
-- Access Point
+- The WiFi repeater 
 - Trunk port
 
 I was able to access the netgear switch by connecting to the same subnet and using a discovery tool to access the GUI. At this point I assigned individual VLAN's matching those specified in the assignments made in OPNsense. What's more is that I also enabled IEEE 802.1Q VLAN trunking to manage all VLANs across a single physical connection between the router and the switch i.e. inter-VLAN routing.
@@ -52,14 +52,19 @@ I was able to access the netgear switch by connecting to the same subnet and usi
 The virtualisation server features a Lenovo Thinkcentre M920q. The hypervisor of choice for this server is Proxmox due to its open source nature and enterprise grade virtualisation.
 
 The servers primary function is for research and testing, different operating systems and applications.
-### The Access Point
-The access point (AP) consists of a Unifi 6+ AP connected via a Unifi PoE injector with one end connected to the power supply, providing adequate power to the AP, while the other end provides a steady internet connection to the rest of the homelab.
+### The WiFi Repeater 
+The WiFi repeater is used to to provide a steady flow of internet traffic direevtly to the homelab. Despite cutting speeds in half, due to it's half duplex modality, it remains most effective in this setup as there isn't a direct ethernet connection to the ISP.
 
-The AP itself is managed on a self hosted Unifi OS server (UOS) to provide centralised management of unifi devices.
+
 ### Limitations
 A limitation of this setup is the network switch. This is due to the interface speeds being capped at 1 gigabit and as faster speeds are backwards compatible they will naturally operate at the maximum speed of the slowest component, effectively rendering this setup as a gigabit network.
 
 However, this is fine given it acts as a private network built for research and testing, rather than a production ready environment, so speed isn't that much of an issue.
+
+Another limitation is that I I initially wanted to provide internet to my homelab via an access point (AP) consisting of a Unifi 6+ AP connected via a Unifi PoE injector with one end connected to the power supply, providing adequate power to the AP, while the other end provides a steady internet connection to the rest of the homelab.The AP itself would have been managed on a self hosted Unifi OS server (UOS) to provide centralised management of unifi devices.
+
+However, due to a lack of resources, once I realised that in order to provide the homelab with internet 2 AP's would be required to provide WiFi meshing, I decided that the most cost effective alternative was to use a WiFi repeater and as such switched and opted for that option instead.
+
 ### Improvements
 The following is a list of improvements I plan to make in the near future:
 -  The inclusion of a Network-Attached Storage device (NAS)
